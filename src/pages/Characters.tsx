@@ -18,6 +18,7 @@ const Characters = () => {
   return (
     <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2  sx:grid-cols-1 gap-2 m-auto p-4 justify-items-center">
       <Card characters={characters} />
+      <h1>test</h1>
     </div>
   );
 };
